@@ -35,7 +35,8 @@ public class Assignment_One {
      
     UnOrderedArray copy1= new UnOrderedArray(50);
     
-     copy1.setArray(copy1.copArr(coreData.getArray())); 
+     //copy1.setArray(copy1.copArr(coreData.getArray())); 
+       copy1.copArr(coreData.getArray());
         
     
      long start= System.nanoTime();
@@ -44,7 +45,8 @@ public class Assignment_One {
      System.out.println("Merge Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
 
      
-        copy1.setArray(copy1.copArr(coreData.getArray())); 
+        //copy1.setArray(copy1.copArr(coreData.getArray())); 
+        copy1.copArr(coreData.getArray());
            
     
          start= System.nanoTime();
@@ -57,7 +59,8 @@ public class Assignment_One {
          
     UnOrderedArray copy2= new UnOrderedArray(1000);
      
-            copy2.setArray(copy2.copArr(coreData.getArray()));
+            //copy2.setArray(copy2.copArr(coreData.getArray()));
+        copy2.copArr(coreData.getArray());
         
     
       start= System.nanoTime();
@@ -67,7 +70,8 @@ public class Assignment_One {
 //new gorl
      
        
-            copy2.setArray(copy2.copArr(coreData.getArray())); 
+            //copy2.setArray(copy2.copArr(coreData.getArray())); 
+        copy2.copArr(coreData.getArray());
             
        
     
@@ -82,7 +86,8 @@ public class Assignment_One {
    
     UnOrderedArray copy3= new UnOrderedArray(10000);
         
-           copy3.setArray(copy3.copArr(coreData.getArray()));
+           //copy3.setArray(copy3.copArr(coreData.getArray()));
+        copy3.copArr(coreData.getArray());
       
     
       start= System.nanoTime();
@@ -93,7 +98,8 @@ public class Assignment_One {
      //new gorl
      
        
-            copy3.setArray(copy3.copArr(coreData.getArray())); 
+            //copy3.setArray(copy3.copArr(coreData.getArray())); 
+        copy3.copArr(coreData.getArray());
             
        
     
@@ -108,8 +114,8 @@ public class Assignment_One {
      
     UnOrderedArray copy4= new UnOrderedArray(100000);
         
-            copy4.setArray(copy4.copArr(coreData.getArray()));
-        
+            //copy4.setArray(copy4.copArr(coreData.getArray()));
+          copy4.copArr(coreData.getArray());
     
       start= System.nanoTime();
      copy4.mergeSort();
@@ -120,7 +126,8 @@ public class Assignment_One {
      //new gorl
      
        
-            copy4.setArray(copy4.copArr(coreData.getArray())); 
+            //copy4.setArray(copy4.copArr(coreData.getArray())); 
+        copy4.copArr(coreData.getArray());
             
         
     
@@ -134,7 +141,8 @@ public class Assignment_One {
    
     UnOrderedArray copy5= new UnOrderedArray(1000000);
        
-            copy5.setArray(copy5.copArr(coreData.getArray()));
+            //copy5.setArray(copy5.copArr(coreData.getArray()));
+        copy5.copArr(coreData.getArray());
         
     
       start= System.nanoTime();
@@ -145,7 +153,8 @@ public class Assignment_One {
      //new gorl
      
      
-            copy5.setArray(copy5.copArr(coreData.getArray())); 
+            //copy5.setArray(copy5.copArr(coreData.getArray())); 
+        copy5.copArr(coreData.getArray());
             
         
     
