@@ -39,14 +39,14 @@ public class UnOrderedArray {
         return false;
     }
     
-public int[] copArr(int[] main_array)
+public void copArr(int[] main_array)
 {       
 
-        for (int i = 1; i < maxSize; i++)
+        for (int i = 0; i < maxSize; i++)
     {
         m_array[i] = main_array[i];
     }
-    return m_array;
+    
 }
     
     
