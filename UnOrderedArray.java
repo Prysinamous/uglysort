@@ -23,6 +23,11 @@ public class UnOrderedArray {
         numElements=0;
     }
     
+    public void setArray(int[] m_array)
+    {   
+        this.m_array = m_array;  
+    }
+    
     public boolean addLast(int item)
     {
         if (numElements < maxSize)
