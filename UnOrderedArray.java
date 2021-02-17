@@ -19,7 +19,7 @@ public class UnOrderedArray {
     public UnOrderedArray(int size)
     {
         maxSize=size;
-        m_array= int[maxSize];
+        m_array= new int[maxSize];
         numElements=0;
     }
     
@@ -37,7 +37,7 @@ public class UnOrderedArray {
 public int[] copArr(int[] copy1)
     {
         int [] copArr;
-    copArr = new int [m_array.length];
+    copArr = m_array;
 
         for (int i = 1; i < m_array.length; i++)
     {
