@@ -42,7 +42,7 @@ public class UnOrderedArray {
 public int[] copArr(int[] main_array)
 {       
 
-        for (int i = 1; i < m_array.length; i++)
+        for (int i = 1; i < maxSize; i++)
     {
         m_array[i] = main_array[i];
     }
