@@ -34,16 +34,14 @@ public class UnOrderedArray {
         return false;
     }
     
-public int[] copArr(int[] copy1)
-    {
-        int [] copArr;
-    copArr = m_array;
+public int[] copArr(int[] main_array)
+{       
 
         for (int i = 1; i < m_array.length; i++)
     {
-        copArr[i] = m_array[i];
+        m_array[i] = main_array[i];
     }
-    return copArr;
+    return m_array;
 }
     
     
