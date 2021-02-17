@@ -35,7 +35,7 @@ public class Assignment_One {
     UnOrderedArray copy1= new UnOrderedArray(50);
         for (int i = 0; i < 50; i++) 
         {
-            copy1.copArr(coreData.getArray());
+            copy1.copArr(copy1.getArray());    //Here
         }
     
      long start= System.nanoTime();
@@ -45,20 +45,20 @@ public class Assignment_One {
 
        for (int i = 0; i < 50; i++) 
         {
-            copy1.copArr(coreData.getArray());
+            copy1.copArr(copy1.getArray());
         }
     
          start= System.nanoTime();
         copy1.quickSort();
           end= System.nanoTime();
          System.out.println("Quick Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
-        
+       
 
              
     UnOrderedArray copy2= new UnOrderedArray(1000);
         for (int i = 0; i < 1000; i++) 
         {
-            copy2.copArr(coreData.getArray());
+            copy2.copArr(copy2.getArray()); //here
         }
     
       start= System.nanoTime();
@@ -71,7 +71,7 @@ public class Assignment_One {
     UnOrderedArray copy3= new UnOrderedArray(10000);
         for (int i = 0; i < 10000; i++) 
         {
-            copy3.copArr(coreData.getArray());
+            copy3.copArr(copy3.getArray());  //here
         }
     
       start= System.nanoTime();
@@ -84,7 +84,7 @@ public class Assignment_One {
     UnOrderedArray copy4= new UnOrderedArray(100000);
         for (int i = 0; i < 100000; i++) 
         {
-            copy4.copArr(coreData.getArray());
+            copy4.copArr(copy4.getArray());  //here
         }
     
       start= System.nanoTime();
@@ -96,7 +96,7 @@ public class Assignment_One {
     UnOrderedArray copy5= new UnOrderedArray(1000000);
         for (int i = 0; i < 1000000; i++) 
         {
-            copy5.copArr(coreData.getArray());
+            copy5.copArr(copy5.getArray()); //here
         }
     
       start= System.nanoTime();
