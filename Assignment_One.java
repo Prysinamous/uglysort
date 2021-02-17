@@ -70,7 +70,7 @@ public class Assignment_One {
      System.out.println("Merge Sorting done.. FOR 1000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
 //new gorl
      
-       for (int i = 0; i < 50; i++) 
+       for (int i = 0; i < 1000; i++) 
         {
             copy2.setArray(copy2.copArr(coreData.getArray())); 
             
@@ -98,7 +98,7 @@ public class Assignment_One {
      
      //new gorl
      
-       for (int i = 0; i < 50; i++) 
+       for (int i = 0; i < 10000; i++) 
         {
             copy3.setArray(copy3.copArr(coreData.getArray())); 
             
@@ -127,7 +127,7 @@ public class Assignment_One {
      
      //new gorl
      
-       for (int i = 0; i < 50; i++) 
+       for (int i = 0; i < 100000; i++) 
         {
             copy4.setArray(copy4.copArr(coreData.getArray())); 
             
@@ -154,7 +154,7 @@ public class Assignment_One {
      
      //new gorl
      
-       for (int i = 0; i < 50; i++) 
+       for (int i = 0; i < 1000000; i++) 
         {
             copy5.setArray(copy5.copArr(coreData.getArray())); 
             
