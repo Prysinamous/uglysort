@@ -33,154 +33,136 @@ public class Assignment_One {
         
    //*******************************************
      
-    UnOrderedArray copy1= new UnOrderedArray(50);
+   
+   //50
+   
+    UnOrderedArray copy1a= new UnOrderedArray(50);
     
      //copy1.setArray(copy1.copArr(coreData.getArray())); 
         for(int i = 0; i < 50; i++){
-       copy1.copArr(coreData.getArray()); //replace with addlast
+       copy1a.addLast(coreData.getArray()[i]); //replace with addlast
         }
-        
     
      long start= System.nanoTime();
-     copy1.mergeSort();
+     copy1a.mergeSort();
      long end= System.nanoTime();
-     System.out.println("Merge Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+     System.out.println("1 Merge Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
 
+        UnOrderedArray copy1b= new UnOrderedArray(50);
+    
         for(int i = 0; i < 50; i++){
-        //copy1.setArray(copy1.copArr(coreData.getArray())); 
-        copy1.copArr(coreData.getArray()); //replace
+       copy1b.addLast(coreData.getArray()[i]); //replace with addlast
         }
-           
     
          start= System.nanoTime();
-        copy1.quickSort();
+        copy1b.quickSort();
           end= System.nanoTime();
-         System.out.println("Quick Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+         System.out.println("2 Quick Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
         
 //*******************************************
              
          
-    UnOrderedArray copy2= new UnOrderedArray(1000);
-     
-            //copy2.setArray(copy2.copArr(coreData.getArray()));
+       
+    UnOrderedArray copy2a= new UnOrderedArray(1000);
+    
+     //copy1.setArray(copy1.copArr(coreData.getArray())); 
         for(int i = 0; i < 1000; i++){
-        copy2.copArr(coreData.getArray());
+       copy2a.addLast(coreData.getArray()[i]); //replace with addlast
         }
-        
     
       start= System.nanoTime();
-     copy2.mergeSort();
+     copy2a.mergeSort();
       end= System.nanoTime();
-     System.out.println("Merge Sorting done.. FOR 1000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
-//new gorl
-     
-       
-            //copy2.setArray(copy2.copArr(coreData.getArray())); 
+     System.out.println("3 Merge Sorting done.. FOR 1000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+
+        UnOrderedArray copy2b= new UnOrderedArray(1000);
+    
         for(int i = 0; i < 1000; i++){
-        copy2.copArr(coreData.getArray());
+       copy2b.addLast(coreData.getArray()[i]); //replace with addlast
         }
-            
-       
     
          start= System.nanoTime();
-        copy2.quickSort();
+        copy2b.quickSort();
           end= System.nanoTime();
-         System.out.println("Quick Sorting done.. FOR 1000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
-     
+         System.out.println("4 Quick Sorting done.. FOR 1000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
      
      
 //*******************************************
    
-    UnOrderedArray copy3= new UnOrderedArray(10000);
-        
-           //copy3.setArray(copy3.copArr(coreData.getArray()));
+  UnOrderedArray copy3a= new UnOrderedArray(10000);
+    
+     //copy1.setArray(copy1.copArr(coreData.getArray())); 
         for(int i = 0; i < 10000; i++){
-        copy3.copArr(coreData.getArray());
+       copy3a.addLast(coreData.getArray()[i]); //replace with addlast
         }
-      
     
       start= System.nanoTime();
-     copy3.mergeSort();
+     copy3a.mergeSort();
       end= System.nanoTime();
-     System.out.println("Merge Sorting done.. FOR 10,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
-     
-     //new gorl
-     
-       
-            //copy3.setArray(copy3.copArr(coreData.getArray())); 
+     System.out.println("5 Merge Sorting done.. FOR 10,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+
+        UnOrderedArray copy3b= new UnOrderedArray(10000);
+    
         for(int i = 0; i < 10000; i++){
-        copy3.copArr(coreData.getArray());
+       copy3b.addLast(coreData.getArray()[i]); //replace with addlast
         }
-            
-       
     
          start= System.nanoTime();
-        copy3.quickSort();
+        copy3b.quickSort();
           end= System.nanoTime();
-         System.out.println("Quick Sorting done.. FOR 10,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+         System.out.println("6 Quick Sorting done.. FOR 10,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
      
-
      
 //*******************************************
      
-    UnOrderedArray copy4= new UnOrderedArray(100000);
-        
-            //copy4.setArray(copy4.copArr(coreData.getArray()));
+    UnOrderedArray copy4a= new UnOrderedArray(100000);
+    
+     //copy1.setArray(copy1.copArr(coreData.getArray())); 
         for(int i = 0; i < 100000; i++){
-          copy4.copArr(coreData.getArray());
+       copy4a.addLast(coreData.getArray()[i]); //replace with addlast
         }
     
       start= System.nanoTime();
-     copy4.mergeSort();
+     copy4a.mergeSort();
       end= System.nanoTime();
-     System.out.println("Merge Sorting done.. FOR 100,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");     
-     
-     
-     //new gorl
-     
-       
-            //copy4.setArray(copy4.copArr(coreData.getArray())); 
+     System.out.println("7 Merge Sorting done.. FOR 100,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+
+        UnOrderedArray copy4b= new UnOrderedArray(100000);
+    
         for(int i = 0; i < 100000; i++){
-        copy4.copArr(coreData.getArray());
+       copy4b.addLast(coreData.getArray()[i]); //replace with addlast
         }
-            
-        
     
          start= System.nanoTime();
-        copy4.quickSort();
+        copy4b.quickSort();
           end= System.nanoTime();
-         System.out.println("Quick Sorting done.. FOR 100,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+         System.out.println("8 Quick Sorting done.. FOR 100,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
      
      
   //*******************************************
    
-    UnOrderedArray copy5= new UnOrderedArray(1000000);
-       
-            //copy5.setArray(copy5.copArr(coreData.getArray()));
+UnOrderedArray copy5a= new UnOrderedArray(1000000);
+    
+     //copy1.setArray(copy1.copArr(coreData.getArray())); 
         for(int i = 0; i < 1000000; i++){
-        copy5.copArr(coreData.getArray());
+       copy5a.addLast(coreData.getArray()[i]); //replace with addlast
         }
-        
     
       start= System.nanoTime();
-     copy5.mergeSort();
+     copy5a.mergeSort();
       end= System.nanoTime();
-     System.out.println("Merge Sorting done.. FOR 1,000,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");     
-     
-     //new gorl
-     
-     
-            //copy5.setArray(copy5.copArr(coreData.getArray())); 
+     System.out.println("9 Merge Sorting done.. FOR 1,000,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+
+        UnOrderedArray copy5b= new UnOrderedArray(1000000);
+    
         for(int i = 0; i < 1000000; i++){
-        copy5.copArr(coreData.getArray());
+       copy5b.addLast(coreData.getArray()[i]); //replace with addlast
         }
-            
-        
     
          start= System.nanoTime();
-        copy5.quickSort();
+        copy5b.quickSort();
           end= System.nanoTime();
-         System.out.println("Quick Sorting done.. FOR  1,000,000  ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+         System.out.println("10 Quick Sorting done.. FOR 1,000,000 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
      
      
      
