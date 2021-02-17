@@ -23,7 +23,7 @@ public class Assignment_One {
         Random rand= new Random();
 
       UnOrderedArray coreData= new UnOrderedArray(1000000);
-
+      
         
           for(int i = 0; i< 1000000; i++)
           {
@@ -35,7 +35,7 @@ public class Assignment_One {
     UnOrderedArray copy1= new UnOrderedArray(50);
         for (int i = 0; i < 50; i++) 
         {
-            copy1.addLast(coreData.getArray()[i]);
+            copy1.copArr(coreData.getArray());
         }
     
      long start= System.nanoTime();
@@ -43,8 +43,17 @@ public class Assignment_One {
      long end= System.nanoTime();
      System.out.println("Merge Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
 
-     
-     
+       for (int i = 0; i < 50; i++) 
+        {
+            copy1.copArr(coreData.getArray());
+        }
+    
+         start= System.nanoTime();
+        copy1.quickSort();
+          end= System.nanoTime();
+         System.out.println("Quick Sorting done.. FOR 50 ITEMS IT Took; "+(end-start)/1000000000.00 +"  nanoseconds");
+        
+
              
     UnOrderedArray copy2= new UnOrderedArray(1000);
         for (int i = 0; i < 1000; i++) 
