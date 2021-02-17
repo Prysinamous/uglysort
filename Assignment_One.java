@@ -36,7 +36,7 @@ public class Assignment_One {
     UnOrderedArray copy1= new UnOrderedArray(50);
         for (int i = 0; i < 50; i++) 
         {
-        copy1 = copy1.copArr(coreData.getArray()); 
+        copy1.setArray(copy1.copArr(coreData.getArray())); 
         }
     
      long start= System.nanoTime();
@@ -46,7 +46,7 @@ public class Assignment_One {
 
        for (int i = 0; i < 50; i++) 
         {
-            copy1 = copy1.copArr(coreData.getArray()); 
+            copy1.setArray(copy1.copArr(coreData.getArray())); 
             
         }
     
@@ -61,7 +61,7 @@ public class Assignment_One {
     UnOrderedArray copy2= new UnOrderedArray(1000);
         for (int i = 0; i < 1000; i++) 
         {
-            copy2 = copy2.copArr(coreData.getArray());
+            copy2.setArray(copy2.copArr(coreData.getArray()));
         }
     
       start= System.nanoTime();
@@ -72,7 +72,7 @@ public class Assignment_One {
      
        for (int i = 0; i < 50; i++) 
         {
-            copy2 = copy2.copArr(coreData.getArray()); 
+            copy2.setArray(copy2.copArr(coreData.getArray())); 
             
         }
     
@@ -88,7 +88,7 @@ public class Assignment_One {
     UnOrderedArray copy3= new UnOrderedArray(10000);
         for (int i = 0; i < 10000; i++) 
         {
-           copy3 = copy3.copArr(coreData.getArray());
+           copy3.setArray(copy3.copArr(coreData.getArray()));
         }
     
       start= System.nanoTime();
@@ -100,7 +100,7 @@ public class Assignment_One {
      
        for (int i = 0; i < 50; i++) 
         {
-            copy3 = copy3.copArr(coreData.getArray()); 
+            copy3.setArray(copy3.copArr(coreData.getArray())); 
             
         }
     
@@ -116,7 +116,7 @@ public class Assignment_One {
     UnOrderedArray copy4= new UnOrderedArray(100000);
         for (int i = 0; i < 100000; i++) 
         {
-            copy4 = copy4.copArr(coreData.getArray());
+            copy4.setArray(copy4.copArr(coreData.getArray()));
         }
     
       start= System.nanoTime();
@@ -129,7 +129,7 @@ public class Assignment_One {
      
        for (int i = 0; i < 50; i++) 
         {
-            copy4 = copy4.copArr(coreData.getArray()); 
+            copy4.setArray(copy4.copArr(coreData.getArray())); 
             
         }
     
@@ -144,7 +144,7 @@ public class Assignment_One {
     UnOrderedArray copy5= new UnOrderedArray(1000000);
         for (int i = 0; i < 1000000; i++) 
         {
-            copy5 = copy5.copArr(coreData.getArray());
+            copy5.setArray(copy5.copArr(coreData.getArray()));
         }
     
       start= System.nanoTime();
@@ -156,7 +156,7 @@ public class Assignment_One {
      
        for (int i = 0; i < 50; i++) 
         {
-            copy5 = copy5.copArr(coreData.getArray()); 
+            copy5.setArray(copy5.copArr(coreData.getArray())); 
             
         }
     
