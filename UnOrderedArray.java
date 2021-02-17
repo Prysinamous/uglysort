@@ -34,6 +34,20 @@ public class UnOrderedArray {
         return false;
     }
     
+public int[] copArr(int[] copy1)
+    {
+        int [] copArr;
+    copArr = new int [m_array.length];
+
+        for (int i = 1; i < m_array.length; i++)
+    {
+        copArr[i] = m_array[i];
+    }
+    return copArr;
+}
+    
+    
+    
     public int[] getArray()
     {
         return this.m_array; 
