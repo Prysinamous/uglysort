@@ -19,7 +19,7 @@ public class UnOrderedArray {
     public UnOrderedArray(int size)
     {
         maxSize=size;
-        m_array= new int[maxSize];
+        m_array= int[maxSize];
         numElements=0;
     }
     
