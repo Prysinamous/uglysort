@@ -1,4 +1,8 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package assignment_one;
 
 import java.util.Random;
@@ -32,7 +36,7 @@ public class Assignment_One {
      long start= System.nanoTime();
      copy1a.mergeSort(); 
      long end= System.nanoTime();
-     System.out.println("MERGE SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+     System.out.println("MERGE SORT:"+(end-start)+"  nanoseconds");
 
 
     UnOrderedArray copy1b= new UnOrderedArray(50);
@@ -44,7 +48,7 @@ public class Assignment_One {
         start= System.nanoTime();
         copy1b.quickSort();
          end= System.nanoTime();
-        System.out.println("QUICK SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+        System.out.println("QUICK SORT:"+(end-start)+"  nanoseconds");
          
          
     UnOrderedArray copy1c= new UnOrderedArray(50);
@@ -57,7 +61,7 @@ public class Assignment_One {
         start= System.nanoTime();
         copy1c.insertionSort();
         end= System.nanoTime();
-        System.out.println("INSERTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+        System.out.println("INSERTION SORT:"+(end-start) +"  nanoseconds");
                     
         UnOrderedArray copy1d= new UnOrderedArray(50);
        
@@ -69,7 +73,7 @@ public class Assignment_One {
         start= System.nanoTime();
         copy1d.selectionSort();
         end= System.nanoTime();
-        System.out.println("SELECTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds\n");
+        System.out.println("SELECTION SORT:"+(end-start) +"  nanoseconds\n");
          
 //******************************************* 1,000
            
@@ -84,7 +88,7 @@ public class Assignment_One {
        start= System.nanoTime();
        copy2a.mergeSort();
        end= System.nanoTime();
-       System.out.println("MERGE SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+       System.out.println("MERGE SORT:"+(end-start) +"  nanoseconds");
 
        UnOrderedArray copy2b= new UnOrderedArray(1000);
 
@@ -96,7 +100,7 @@ public class Assignment_One {
        start= System.nanoTime();
        copy2b.quickSort();
        end= System.nanoTime();
-       System.out.println("QUICK SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+       System.out.println("QUICK SORT:"+(end-start)+"  nanoseconds");
 
        UnOrderedArray copy2c= new UnOrderedArray(1000);
        for(int i = 0; i < 1000; i++)
@@ -107,7 +111,7 @@ public class Assignment_One {
        start= System.nanoTime();
        copy2c.insertionSort();
        end= System.nanoTime();
-       System.out.println("INSERTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+       System.out.println("INSERTION SORT:"+(end-start)+"  nanoseconds");
 
        UnOrderedArray copy2d= new UnOrderedArray(1000);
        for(int i = 0; i < 1000; i++)
@@ -118,7 +122,7 @@ public class Assignment_One {
        start= System.nanoTime();
        copy2d.selectionSort();
        end= System.nanoTime();
-       System.out.println("SELECTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds\n");
+       System.out.println("SELECTION SORT:"+(end-start) +"  nanoseconds\n");
 
 //******************************************* 10,000
 
@@ -134,7 +138,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy3a.mergeSort();
     end= System.nanoTime();
-    System.out.println("MERGE SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("MERGE SORT:"+(end-start)+"  nanoseconds");
 
     UnOrderedArray copy3b= new UnOrderedArray(10000);
     
@@ -146,7 +150,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy3b.quickSort();
     end= System.nanoTime();
-    System.out.println("QUICK SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("QUICK SORT:"+(end-start)+"  nanoseconds");
      
      UnOrderedArray copy3c= new UnOrderedArray(10000);
       
@@ -158,7 +162,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy3c.insertionSort();
     end= System.nanoTime();
-    System.out.println("INSERTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("INSERTION SORT:"+(end-start)+"  nanoseconds");
          
     UnOrderedArray copy3d= new UnOrderedArray(10000);
       
@@ -170,7 +174,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy3d.selectionSort();
     end= System.nanoTime();
-    System.out.println("SELECTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds\n");
+    System.out.println("SELECTION SORT:"+(end-start)+"  nanoseconds\n");
          
      
 //******************************************* 100,000
@@ -186,7 +190,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy4a.mergeSort();
     end= System.nanoTime();
-    System.out.println("MERGE SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("MERGE SORT:"+(end-start)+"  nanoseconds");
 
     UnOrderedArray copy4b= new UnOrderedArray(100000);
     
@@ -198,7 +202,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy4b.quickSort();
     end= System.nanoTime();
-    System.out.println("QUICK SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("QUICK SORT:"+(end-start)+"  nanoseconds");
          
     UnOrderedArray copy4c= new UnOrderedArray(100000);
       
@@ -209,7 +213,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy4c.insertionSort();
     end= System.nanoTime();
-    System.out.println("INSERTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    System.out.println("INSERTION SORT:"+(end-start)+"  nanoseconds");
              
     UnOrderedArray copy4d= new UnOrderedArray(100000);
       
@@ -221,7 +225,7 @@ public class Assignment_One {
     start= System.nanoTime();
     copy4d.selectionSort();
     end= System.nanoTime();
-    System.out.println("SELECTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds\n"); 
+    System.out.println("SELECTION SORT:"+(end-start)+"  nanoseconds\n"); 
     
   //*******************************************
     System.out.println("***********1,000,000 ITEMS*********");
@@ -233,10 +237,10 @@ public class Assignment_One {
     copy5a.addLast(coreData.getArray()[i]);
     }
     
-    start= System.nanoTime();
+    start= System.currentTimeMillis();
     copy5a.mergeSort();
-    end= System.nanoTime();
-    System.out.println("MERGE SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    end= System.currentTimeMillis();
+    System.out.println("MERGE SORT:"+(end-start)/1000000.00 +"  milliseconds");
 
     UnOrderedArray copy5b= new UnOrderedArray(1000000);
     
@@ -245,10 +249,10 @@ public class Assignment_One {
       copy5b.addLast(coreData.getArray()[i]); 
     }
     
-    start= System.nanoTime();
+    start= System.currentTimeMillis();
     copy5b.quickSort();
-    end= System.nanoTime();
-    System.out.println("QUICK SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    end= System.currentTimeMillis();
+    System.out.println("QUICK SORT:"+(end-start)/1000000.00 +"  milliseconds");
      
          
     UnOrderedArray copy5c= new UnOrderedArray(1000000);
@@ -258,10 +262,10 @@ public class Assignment_One {
        copy5c.addLast(coreData.getArray()[i]); 
     }
     
-    start= System.nanoTime();
+    start= System.currentTimeMillis();
     copy5c.insertionSort();
-    end= System.nanoTime();
-    System.out.println("INSERTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds");
+    end= System.currentTimeMillis();
+    System.out.println("INSERTION SORT:"+(end-start)/1000000.00 +"  milliseconds");
          
        
     UnOrderedArray copy6d= new UnOrderedArray(1000000);
@@ -271,11 +275,10 @@ public class Assignment_One {
        copy6d.addLast(coreData.getArray()[i]); 
     }
     
-    start= System.nanoTime();
+    start= System.currentTimeMillis();
     copy6d.selectionSort();
-    end= System.nanoTime();
-    System.out.println("SELECTION SORT:"+(end-start)/1000000000.00 +"  nanoseconds\n"); 
-    
+    end= System.currentTimeMillis();
+    System.out.println("SELECTION SORT:"+(end-start)/1000000.00 +"  milliseconds\n"); 
 
     }
    
